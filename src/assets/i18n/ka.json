@@ -1,0 +1,15 @@
+{
+    "label": {
+        "greeting": "გამარჯობა {name}",
+        "save": "შენახვა",
+        "gender": "{gender, select, male{His uses} female{She uses} other{They use } bla{beee}} {product}",
+        "pluralization": "There {count, plural, =0{is no apple} one{is one apple} other{there are several apples}}.",
+
+        "text": "<div style=\"color:#85C226\">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standar</div><div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standar</div>"
+
+
+
+        
+        
+    }
+}

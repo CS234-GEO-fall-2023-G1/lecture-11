@@ -1,0 +1,19 @@
+
+
+<!-- <div>{{'label.greeting' | translate: {'name': 'Ann'}}}</div> -->
+<!-- <p>{{ 'label.greeting' | translate:{'name':'Ann'} }}</p> -->
+<p>{{ 'label.greeting' | translate:{'name':'Ann'} }}</p>
+
+
+<div>
+    <p>{{'label.gender' | translate:{ 'gender': 'other', 'product': 'productNAme' } }}</p>
+    <p>{{'label.pluralization' | translate:{ 'count': 2 } }}</p>
+  </div>
+
+  <div [innerHTML]="'label.text' | translate"></div>
+
+
+  <input [placeholder]="'label.save' | translate">
+
+<!-- <div [translate]="'label.greeting'" [translateParams]="'Ann'"></div> -->
+<!-- <div translate>greeting</div> -->
